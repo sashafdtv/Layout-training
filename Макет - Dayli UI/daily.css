@@ -1,0 +1,128 @@
+/*Все норм, только так и не понял, как спозиционировать лого на кнопке правильно\
+upd: кнопки сделал*/
+
+body {
+  background-color: #4d515e;
+  font-family: "Abel", sans-serif;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+
+/*Позиционирование*/
+
+.container {
+  width: 1210px;
+  height: 870px;
+  background-color: #ffffff;
+  margin: 100px auto;
+  border-radius: 20px;
+  box-shadow: 1px 4px 66px 12px #252525;
+}
+
+#content {
+  width: 775px;
+  float: left;
+}
+
+#image {
+  width: 435px;
+  height: 100%;
+  float: right;
+  background-image: url(img/image.png);
+  border-radius: 0 20px 20px 0;
+}
+
+.content {
+  width: 60%;
+  margin-top: 100px;
+  margin-left: 87px;
+}
+
+/*header*/
+
+header span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #949cab;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+header h1 {
+  font-size: 60px;
+  color: #38393e;
+  font-weight: 100;
+  margin: 40px 0px 35px 0px;
+}
+
+header p {
+  color: #9fa8b7;
+  line-height: 34px;
+  margin: 0;
+}
+
+/*кнопки*/
+.buttoms {
+  margin-bottom: 47px;
+  margin-top: 47px;
+  
+}
+.buttom {
+  border: 1px solid #e3e7ec;
+  border-radius: 20px;
+  padding: 30px 0 30px 0;
+  margin: 24px 0;
+  text-align: center;
+  background: url(img/Google+.png) 40px 50% no-repeat;
+  background-size: 40px
+}
+
+.buttomf {background: url(img/facebook.png) 30px 50% no-repeat;
+  background-size: 50px}
+
+  .buttomt {background: url(img/twitter.png) 30px 50% no-repeat;
+    background-size: 50px}
+
+.buttom span {
+  font-size: 80%;
+  text-align: center;
+  color: #545b67;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+.buttom img {
+  width: 20px;
+  float: left;
+  margin-left: 40px;
+}
+
+/*footer*/
+
+footer {
+  border-top: 1px solid #e3e7ec;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  color: #545b67;
+}
+
+footer span {
+  color: #9dc950;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}

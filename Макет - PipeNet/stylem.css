@@ -1,0 +1,221 @@
+/* 
+
+Клик по ссылкам в шапке должен переносить на соответствующие разделы страницы.
+При клике на лого должен происходить переход в самый верх страницы.
++
+пофиксить расположение картинок */
+
+* {
+  box-sizing: border-box;
+}
+
+
+.header-fix {
+  background-color: #007765;
+  height: 84px;
+  width: 1219px;
+  display: flex;
+  position: fixed;
+}
+
+.header-fix-logo {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 55px;
+}
+
+.header-fix-menu {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 54px
+}
+.container {
+  width: 1219px;
+  padding: 0px 55px;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+}
+
+.header-fix-menu span {
+  color: white;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.header-main {
+  display: flex;
+  background-image: url(img/image.png);
+  width: 1219px;
+  height: 403px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  padding-top: 84px
+}
+
+.header-main h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  color: #ffffff;
+  width: 1219px;
+  height: 83px;
+  text-align: center;
+}
+
+.main1-text {
+  background-color: #eeeeee;
+  width: 1219px;
+  padding: 48px 55px;
+}
+
+.main1-text h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  color: #007765;
+  margin: 0;
+}
+
+.main1-text p {
+  font-family: 'Roboto', sans-serif;
+  font-weight:normal;
+  font-size: 32px;
+}
+
+.main2-image {
+  background-image: url(img/image-1.png);
+  width: 1219px;
+  height: 483px;
+  padding: 128px 163px;
+}
+
+.main2-image p {
+  width: 893px;
+  height: 228px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  margin: 0;
+}
+
+.main3-text {
+  background-color: #FFFFFF;
+  width: 1219px;
+  padding: 48px 55px;
+}
+ 
+
+.main3-text h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  color: #007765;
+  margin: 0;}
+
+
+.main3-text p {font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+line-height: 37px;}
+
+
+.main3-text img {
+  float: left;
+  margin: 0 48px 3px 0;
+}
+
+.main4-team {
+  background-color: #eeeeee;
+  padding-top: 48px;
+  padding-bottom: 94px;
+  padding-left: 55px;
+  padding-right: 55px;
+  width: 1219px;
+}
+.main4-team-flex-line1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: center;
+}
+.main4-team-flex-line2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: center;
+}
+.main4-team h2 {
+  text-align: center;
+font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  color: #007765;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.main4-team h3 {
+  color: #007765;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 0%;
+}
+
+.main4-team figure {
+  text-align: center;
+}
+.main4-team em {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+}
+.main4-team caption {
+  text-align: center;
+}
+
+.main4-team img {
+  margin: 0px;
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  background-color: #333333;
+  width: 1219px;
+  height: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}

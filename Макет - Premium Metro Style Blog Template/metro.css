@@ -1,0 +1,155 @@
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  height: 100%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+/*Ширина всех контейнеров*/
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/*Шапка*/
+header {
+  border-bottom: 1px solid #e5e5e5;
+}
+.header img {
+  margin: 50px 0px 40px 0px;
+}
+
+.header nav {
+  float: right;
+  font-size: 23px;
+  color: #323332;
+}
+
+.header li {
+  float: left;
+  margin: 35px 30px;
+  display: block;
+}
+
+/*Экран с айпадом*/
+.prew-text {
+  color: rgb(93, 93, 93);
+  text-align: left;
+  float: left;
+  padding: 190px 20px 180px 0px;
+}
+
+.prew h1 {
+  font-size: 70.54px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.prew h2 {
+  font-size: 47px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+#ipad {
+  position: absolute;
+  float: left;
+  margin-top: 190px;
+}
+
+/*Первая рекламка в блоке с постами*/
+
+.mail-marketing {display: block;
+width: 670px;
+height: 250px;
+margin: 0;}
+
+.mail-marketing img {
+  float: left;
+}
+
+.mail-marketing-text {
+  width: 346px;
+  float: left;
+}
+.mail-marketing-text h3 {
+  font-size: 30px;
+  color: rgb(105, 97, 97);
+  line-height: 1.233;
+  text-align: left;
+  margin: 0;
+  margin-left: 26px;
+}
+.mail-marketing-text p {
+  font-size: 14px;
+  color: rgb(132, 132, 132);
+  line-height: 1.429;
+  text-align: left;
+  margin-bottom: 2px;
+  margin-left: 26px;
+}
+
+
+/* Стилизация флексбоксов */
+.mail-flexbox {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0  
+}
+.main-flexbox-item {
+  width: 32%;
+  margin-top: 25px;
+}
+.main-flexbox-item p {
+    font-size: 14px;
+    color: rgb(132, 132, 132);
+    line-height: 1.429;
+    text-align: justifyLeft;
+  }
+
+  .main-flexbox-item h2 {
+    font-size: 26px;
+    color: rgb(105, 97, 97);
+    line-height: 1.077;
+    text-align: left;
+  }
+
+/*Блоки справа*/
+
+  .mail-float {float: right}
+
+  .mail-float-item {width: 300px;
+  height: 280px;
+  display: block;
+  margin-bottom: 50px}
+
+  .mail-float-item:nth-of-type(1) {background-color: red;}
+  .mail-float-item:nth-of-type(2) {background-color: green;}
+  .mail-float-item:nth-of-type(3) {background-color: blue;}
+
+  /*footer*/
+    footer {
+      width: 100%;
+      display: block;
+      background-color: #393a39;
+      padding: 20px;
+      text-align: center;
+      margin-top: 50px;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        
+      
+      
+    }
+
+    /*какое-то свойство, которое приковывает футер к низу экрана*/
+    .content {min-height: calc(100vh - 80px);}
+
+  

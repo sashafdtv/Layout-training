@@ -1,0 +1,41 @@
+/*  
+  
+    Таблицы имеют непрерывные границы чёрного цвета толщиной 1px.
+   */
+
+article {
+  width: 70%;
+  height: 70%;
+  margin: 50px auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+  margin-top: 24px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+figure {
+  float: right;
+  margin: 30px;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+table {
+  border: 1px black double;
+  border-collapse: collapse;
+}
+td {
+  border: 1px black double;
+}
+th {
+  border: 1px black double;
+}

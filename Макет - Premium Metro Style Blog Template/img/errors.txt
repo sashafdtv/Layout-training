@@ -1,0 +1,2 @@
+[2019-05-04 00:26:53] layer "All Rights Reserved to cssauthor.com": Unsupported extension: com
+[2019-05-04 00:26:53] layer "Lorem Ipsum is simply  cssauthor.com": Unsupported extension: com

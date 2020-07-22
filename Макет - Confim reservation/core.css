@@ -1,0 +1,115 @@
+body {
+  background-color: #f4f4f4;
+  font-family: "Muli", sans-serif;
+  letter-spacing: 2px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+.container {
+  width: 525px;
+  height: 874px;
+  background-color: #ffffff;
+  margin: 100px auto;
+  box-shadow: 7px 5px 100px -70px #000000;}
+
+
+/*Кнопки*/
+
+.buttom1 {
+  width: 16px;
+  height: 24px;
+  background: url(confirm-reservation-full-assets/buttom.png) no-repeat;
+  float: left;
+  margin: 78px 0 0 74px;
+  margin-top: 78px;
+}
+
+.buttom2 {
+  background: url(confirm-reservation-full-assets/buttom2.png) no-repeat;
+  width: 36px;
+  height: 35px;
+  float: right;
+  margin: 72px 50px 0 0;
+}
+
+/*Секция с картинкой и заголовком*/
+
+section {
+  width: 350px;
+  height: 712px;
+  margin: 0 84px;
+
+  text-align: center;
+}
+
+.content-header {
+  margin-bottom: 65px;
+}
+
+.image {
+  width: 142px;
+  height: 142px;
+  background: url(confirm-reservation-full-assets/image.png) no-repeat;
+  margin: 0 auto;
+  margin-bottom: 43px;
+  border-radius: 100%;
+  box-shadow: 7px 21px 70px -29px #000000;
+  
+}
+
+.content-header {
+  color: #686a73;
+  font-family: arial;
+  text-transform: uppercase;
+
+}
+
+/*ceкция с цифрами и текстом*/
+
+.content-date span {
+  color: #4c4d53;
+
+  margin: 0
+}
+
+.content-date h2 {
+    color: #545661;
+letter-spacing: 0;
+text-transform: uppercase;
+font-weight: }
+
+.plusminus {font-size: 82px;
+margin-bottom: 42px}
+
+.plusminus span {font-family: 'Luckiest Guy', cursive;}
+
+.plusminus div {width: 30px;
+height: 30px;}
+
+.plus {background: url(confirm-reservation-full-assets/plus.png) no-repeat;
+float:right;
+position: relative;
+top: 40px;
+right: 40px}
+
+.minus {background: url(confirm-reservation-full-assets/minus.png) no-repeat;
+float: left;
+position: relative;
+left: 45px;
+top: 40px}
+
+/*кнопка*/
+
+section .buttom {padding: 38px;
+margin-top: 80px;
+background-color: #474850;
+color: white;
+text-transform: uppercase;
+font-weight: bold;
+box-shadow: 7px 40px 70px -29px #000000;
